@@ -1,0 +1,17 @@
+{
+    "view": "layout.default",
+    "path": "/",
+    "title": "TITLE - Add title",
+    "description": "",
+    "sections": [
+        {
+            "slug": "partial-01",
+            "path": "homepage.partial-1"
+        },
+
+        {
+            "slug": "partial-02",
+            "path": "homepage.partial-2"
+        }
+    ]
+}
