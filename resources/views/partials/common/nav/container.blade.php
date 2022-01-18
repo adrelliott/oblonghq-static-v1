@@ -4,7 +4,7 @@
     >
         <div class="flex flex-row items-center justify-between lg:justify-start">
             <a href="/"
-                class="text-lg font-bold tracking-tighter text-blue-600 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
+                class="text-lg font-bold tracking-tighter text-oblong-blue-standard transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8"
             >
                 oblong
             </a>
@@ -20,7 +20,7 @@
             </button>
         </div>
         <nav :class="{'flex': open, 'hidden': !open}"
-            class="flex-col items-center flex-grow hidden pb-4 border-blue-600 md:pb-0 md:flex md:justify-end md:flex-row lg:border-l-2 lg:pl-2"
+            class="flex-col items-center flex-grow hidden pb-4 border-accent md:pb-0 md:flex md:justify-end md:flex-row lg:border-l-2 lg:pl-2"
         >
             @yield('nav')
         </nav>

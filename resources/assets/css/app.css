@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body, html {
+    @apply text-slate-700 font-sans;
+  }
+  h1 {
+    @apply text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight mb-6;
+  }
+  h2 {
+    @apply text-slate-900 text-3xl sm:text-4xl lg:text-5xl tracking-tight font-extrabold mb-4;
+  }
+  h3 {
+     @apply text-slate-800 text-2xl sm:text-3xl lg:text-4xl tracking-normal font-light mb-3;
+  }
+  h4 {
+    @apply text-slate-600 text-xl sm:text-2xl lg:text-3xl tracking-tight font-extralight mb-3;
+  }
+  p {
+    @apply mt-4 text-lg lg:text-xl font-body tracking-normal leading-normal;
+  }
+}
+
+@layer components {
+    .btn {
+      @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+    }
+    .btn-ghost {
+      @apply mx-2 my-2 bg-white transition duration-150 ease-in-out hover:bg-gray-100 hover:text-indigo-600 rounded border border-indigo-700 text-indigo-700 px-6 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-indigo-700;
+    }
+    .link {
+        @apply text-oblong-green border-b-2 border-oblong-green hover:text-slate-50 hover:bg-oblong-green hover:no-underline visited:text-gray-400 visited:border-gray-400 visited:hover:border-oblong-green; 
+    }
+    .quote {
+      @apply 
+    }
+  }
