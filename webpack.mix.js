@@ -27,13 +27,15 @@ mix.disableNotifications()
             {
                 match: ["resources/**/*"],
                 fn: function(event, file) {
-                    command.get('php cleaver build', (error, stdout, stderr) => {
+                    command.run('php cleaver build', (error, stdout, stderr) => {
                         console.log(error ? stderr : stdout);
                     });
                 }
             }
         ],
-        proxy: '127.0.0.1:8080',
+        proxy: 'oblonghq.test',
         notify: false,
         open: false
     });
+
+    
