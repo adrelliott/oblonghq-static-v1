@@ -17,9 +17,9 @@
         <p>This is normal text.</p>
         <p>This is normal text.</p>
         <p>This is normal text.</p>
-        <p>This is <a href="" class="text-oblong-link hover:text-oblong-hover">link text</a>.</p>
+        <p>This is <a href="" class="link">link text</a>.</p>
         <p>This is <a href="/bah" class="link">link text with hover effect</a>.</p>
-        <p>This is <a href="" class="text-oblong-visited">link visited text</a>.</p>
+        <p>This is <a href="" class="link">link visited text</a>.</p>
         <button class="btn">Standard button</button>
         <button class="btn-ghost">Button</button>
         

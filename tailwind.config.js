@@ -13,7 +13,8 @@ module.exports = {
             'serif': ['ui-serif', 'Georgia'],
             'mono': ['ui-monospace', 'SFMono-Regular'],
             'display': ['Oswald'],
-            'body': ['"Open Sans"'],
+            'body': ['"Open Sans"', 'sans-serif'],
+            'logo': ['Bitter', 'serif'],
         },
         extend: {
             colors: {

@@ -1,7 +1,7 @@
 @include('partials.common.head')
-@include('partials.common.nav')
+@include('partials.navbars.default')
 
-<div class="container mx-auto py-6 md:py-12">
+<div class="container mx-auto py-6 md:py-12 mt-20">
         <main class="px-6 md:px-0">
             @forelse($sections as $section)
                 <section class="text-gray-700 leading-relaxed mb-12" id="{{ $section->slug ?? '' }}">
